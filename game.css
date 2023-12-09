@@ -3,12 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
-    color:white;
-    font-size: 80px;
-    font-weight: 900;
-    margin-left:700px;
-}
 p{
     color:white;
     font-size: 30px;
@@ -44,10 +38,10 @@ p{
     display: flex;
     gap:100px;
 }
-.imgofhand{
+/* .imgofhand{
     position: relative;
     top:500px;
-}
+} */
 .game-image{
     position: absolute;
     display:none;
@@ -62,4 +56,18 @@ span{
 .heading{
     display: flex;
     justify-content: center;
+}
+#ptag{
+    text-align: center;
+    color:white;
+}
+button{
+    display: none;
+    background-color: #f7bb3d;
+    margin-left: 660px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
 }
